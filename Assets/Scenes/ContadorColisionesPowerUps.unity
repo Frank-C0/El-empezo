@@ -492,7 +492,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 2b42789619d817943a8f25b4b165d11b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1310,7 +1310,7 @@ Transform:
   m_GameObject: {fileID: 320515959}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35.48, y: 9.18, z: 28.92}
+  m_LocalPosition: {x: 35.48, y: 9.18, z: 27.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1920,9 +1920,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabsToSpawn:
-  - {fileID: 6015495429912667872, guid: ac231cbd93d36674c94f055e9f16211b, type: 3}
-  - {fileID: 945651401595677910, guid: 82ce720e12f628c45abff38d7102178c, type: 3}
-  - {fileID: 2707521798293403168, guid: e80f1254b9fc9f94a8763d397302146f, type: 3}
+  - {fileID: 3271220310061107077, guid: 1f87abb05c7c9c140b63abcc7e89b18c, type: 3}
+  - {fileID: 7241814377017286989, guid: 114e6a1de230767488b9ed8859b671b6, type: 3}
+  - {fileID: 3551533070095741284, guid: f6c23a4e894fee245b03c9d451cf1379, type: 3}
   respawnInterval: 2.5
   ejeX: 36.8156
   ejeZ: 28.92
@@ -1987,9 +1987,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabsToSpawn:
-  - {fileID: 8396789522777078673, guid: 20cd811200947b9479d249b1c99b77ab, type: 3}
-  - {fileID: 945651401595677910, guid: 82ce720e12f628c45abff38d7102178c, type: 3}
-  - {fileID: 2707521798293403168, guid: e80f1254b9fc9f94a8763d397302146f, type: 3}
+  - {fileID: 3271220310061107077, guid: 1f87abb05c7c9c140b63abcc7e89b18c, type: 3}
+  - {fileID: 7241814377017286989, guid: 114e6a1de230767488b9ed8859b671b6, type: 3}
+  - {fileID: 3551533070095741284, guid: f6c23a4e894fee245b03c9d451cf1379, type: 3}
   respawnInterval: 2.5
   ejeX: 36.8156
   ejeZ: 15.65
@@ -2157,7 +2157,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 2b42789619d817943a8f25b4b165d11b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2975,7 +2975,7 @@ Transform:
   m_GameObject: {fileID: 1835122391}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35.48, y: 9.18, z: 15.65}
+  m_LocalPosition: {x: 35.48, y: 9.18, z: 14.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
