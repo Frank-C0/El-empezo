@@ -12,6 +12,9 @@ public class BarraDeVida : MonoBehaviour
 
     public RandomSpawner playerLeft;
     public RandomSpawner playerRight;
+    void start(){
+        vidaActual = vidaMaxima/2;
+    }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.S))

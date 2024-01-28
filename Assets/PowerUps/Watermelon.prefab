@@ -50,15 +50,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -1093542864094445076, guid: 38cae43c4c2d0b344b4e6e37a1694647, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5
+      value: 3.02
       objectReference: {fileID: 0}
     - target: {fileID: -1093542864094445076, guid: 38cae43c4c2d0b344b4e6e37a1694647, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5
+      value: 3.02
       objectReference: {fileID: 0}
     - target: {fileID: -1093542864094445076, guid: 38cae43c4c2d0b344b4e6e37a1694647, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5
+      value: 3.02
       objectReference: {fileID: 0}
     - target: {fileID: -1093542864094445076, guid: 38cae43c4c2d0b344b4e6e37a1694647, type: 3}
       propertyPath: m_LocalPosition.x
@@ -99,6 +99,10 @@ PrefabInstance:
     - target: {fileID: -1093542864094445076, guid: 38cae43c4c2d0b344b4e6e37a1694647, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1093542864094445076, guid: 38cae43c4c2d0b344b4e6e37a1694647, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -780484559541493865, guid: 38cae43c4c2d0b344b4e6e37a1694647, type: 3}
       propertyPath: m_LocalScale.y
@@ -216,7 +220,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1e0d87b3054b19438d27653fdb703fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 6286293071665992441}
 --- !u!1 &6015495429912667872 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 38cae43c4c2d0b344b4e6e37a1694647, type: 3}
@@ -234,7 +237,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1e0d87b3054b19438d27653fdb703fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 6865986495065372314}
 --- !u!54 &6865986495065372314
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -301,7 +303,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1e0d87b3054b19438d27653fdb703fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rb: {fileID: 1067795431993146192}
 --- !u!54 &1067795431993146192
 Rigidbody:
   m_ObjectHideFlags: 0
