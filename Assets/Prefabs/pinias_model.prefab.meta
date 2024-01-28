@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/pinias_model.prefab.meta
 guid: f6c23a4e894fee245b03c9d451cf1379
+========
+guid: 09da4f76ac07c8a46bfb407378105a79
+>>>>>>>> dev_frank:Assets/Prefabs/Capsule.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 
