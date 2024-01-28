@@ -6,30 +6,28 @@ using UnityEngine.SceneManagement;
 public class PowerUp : MonoBehaviour
 {
     private GameObject cubekey;
+    private RandomSpawner spawner;
+    private KeyCode key;
     void Start()
     {
         transform.position = new Vector3(transform.position.x, 20, transform.position.z);
     }
-    public void createCube(GameObject obj, float y_pos)
+    public void initialize(RandomSpawner spawner, GameObject obj, float y_pos, KeyCode key)
     {
         Vector3 randomSpawnPosition = new Vector3(transform.position.x, y_pos, transform.position.z);
         cubekey = Instantiate(obj, randomSpawnPosition, Quaternion.identity);
+        this.spawner = spawner;
+        this.key = key;
     }
     void Update()
     {
         if (cubekey != null)
         {
             // Jujador Izquierda
-            if (Input.GetKeyDown(KeyCode.K) && transform.position.y < cubekey.transform.position.y + 1 && transform.position.y > cubekey.transform.position.y - 1)
+            if (Input.GetKeyDown(key) && transform.position.y < cubekey.transform.position.y + 1 && transform.position.y > cubekey.transform.position.y - 1)
             {
-                Debug.Log("PowerUp Conceguido J I");
-                Destroy(cubekey, 0);
-                Destroy(gameObject, 0);
-            }
-            // Jugador Derecha
-            if (Input.GetKeyDown(KeyCode.S) && transform.position.y < cubekey.transform.position.y + 1 && transform.position.y > cubekey.transform.position.y - 1)
-            {
-                Debug.Log("PowerUp Conceguido J D");
+                spawner.ActivateSuperPowerUp();
+                Debug.Log("PowerUp Conceguido");
                 Destroy(cubekey, 0);
                 Destroy(gameObject, 0);
             }
