@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class BarraDeVida : MonoBehaviour
@@ -27,6 +28,10 @@ public class BarraDeVida : MonoBehaviour
         }
         vidaActual = Mathf.Clamp(vidaActual, 0f, vidaMaxima);
         barraDeVida.fillAmount=vidaActual/vidaMaxima;
+
+        if(vidaActual<=0 ||vidaActual>=vidaMaxima){
+            SceneManager.LoadScene("MenuInicial");
+        }
 
     }
     // Método para aumentar la vida
