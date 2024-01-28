@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4465797, g: 0.4964139, b: 0.5748177, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657993, g: 0.49641424, b: 0.5748182, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,6 +134,18 @@ PrefabInstance:
     - target: {fileID: 5773416723408676119, guid: 4f0cdf58566a343438ef08870c128e73, type: 3}
       propertyPath: m_Name
       value: Payer2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581055686109740973, guid: 4f0cdf58566a343438ef08870c128e73, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581055686109740973, guid: 4f0cdf58566a343438ef08870c128e73, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581055686109740973, guid: 4f0cdf58566a343438ef08870c128e73, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6581055686109740973, guid: 4f0cdf58566a343438ef08870c128e73, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1252,8 +1264,8 @@ Transform:
   m_GameObject: {fileID: 690435311}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -1, z: 0}
-  m_LocalScale: {x: 50.000015, y: 2, z: 50.000015}
+  m_LocalPosition: {x: 0, y: -1, z: -0.54}
+  m_LocalScale: {x: 50.000015, y: 2, z: 60.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1553,7 +1565,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
   m_LocalPosition: {x: -3, y: 2, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 140606951}
@@ -1746,7 +1758,7 @@ MonoBehaviour:
   - {fileID: 3054693422559353959, guid: 20cd811200947b9479d249b1c99b77ab, type: 3}
   - {fileID: 6015495429912667872, guid: ac231cbd93d36674c94f055e9f16211b, type: 3}
   respawnInterval: 2.5
-  cubeKey: {fileID: 2041681216660041649, guid: 1ea53b183478f6a4394a0691dc45f025, type: 3}
+  cubeKey: {fileID: 2041681216660041649, guid: a5dd6466e3207d948b4955a55e0ecccd, type: 3}
   ssController: {fileID: 771665818}
   objetoJugador: {fileID: 1925695340}
   key: 108
@@ -1868,7 +1880,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   barraDeVida: {fileID: 2022319940}
-  vidaActual: 100
+  vidaActual: 50
   vidaMaxima: 100
   playerLeft: {fileID: 726058268}
   playerRight: {fileID: 1261888132}
@@ -1972,6 +1984,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 824867029}
     m_Modifications:
+    - target: {fileID: 257773646684242883, guid: c2130f4ce6956d54a9227658ab6df2fd, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 257773646684242883, guid: c2130f4ce6956d54a9227658ab6df2fd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 257773646684242883, guid: c2130f4ce6956d54a9227658ab6df2fd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2364,7 +2384,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.4121505, z: 0, w: 0.9111158}
   m_LocalPosition: {x: 3, y: 2, z: -0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1984760895}
