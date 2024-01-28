@@ -14,15 +14,15 @@ public class PowerUp : MonoBehaviour
     void Update()
     {
         // Jujador Izquierda
-        if (Input.GetKey(KeyCode.K) && transform.position.y < 10.7 && transform.position.y > 8.66)
-        {
-            Debug.Log("PowerUp Conceguido J I");
-            Destroy(gameObject, 0);
-        }
-        // Jugador Derecha
         if (Input.GetKey(KeyCode.S) && transform.position.y < 10.7 && transform.position.y > 8.66)
         {
             Debug.Log("PowerUp Conceguido J D");
+            Destroy(gameObject, 0);
+        }
+        // Jugador Derecha
+        if (Input.GetKey(KeyCode.K) && transform.position.y < 10.7 && transform.position.y > 8.66)
+        {
+            Debug.Log("PowerUp Conceguido J I");
             Destroy(gameObject, 0);
         }
         // El powerup se perdió
