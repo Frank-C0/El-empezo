@@ -16,10 +16,16 @@ public class RandomSpawner : MonoBehaviour
 
     public int powerColorIndex;
 
+    public float power = 2;
+    [HideInInspector]
+    public float currentPower;
+    public float SSmultiplier = 2;
+
     // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(RespawnCoroutine());
+        currentPower = power;
     }
 
     IEnumerator RespawnCoroutine()
@@ -48,13 +54,24 @@ public class RandomSpawner : MonoBehaviour
         // Asegúrate de que el objeto SSControllerScript y el objeto padre estén asignados
         if (ssController != null && objetoJugador != null)
         {
-            // Llama a ActivateSSPower con el objeto padre y el número de parámetro
+            applyMultiplier();
+            StartCoroutine(removeMultiplier());   
             ssController.ActivateSSPower(objetoJugador, powerColorIndex, 2.4f, 3f);
         }
         else
         {
             Debug.LogError("Asegúrate de asignar el objeto SSControllerScript y el objetoJugador en el Inspector.");
         }
+    }
+
+    void applyMultiplier()
+    { 
+        currentPower = currentPower * SSmultiplier;
+    }
+    IEnumerator removeMultiplier()
+    {
+        yield return new WaitForSeconds(2.8f);
+        currentPower = currentPower / SSmultiplier;
     }
 
 }
